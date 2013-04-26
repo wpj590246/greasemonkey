@@ -1,0 +1,43 @@
+<UserScriptConfig>
+	<Script basedir="next_button" checkRemoteUpdates="1" dependhash="323d9eeba93981ea8175a6b2e7dc9af460fd3cdf" description="" enabled="true" filename="next_button.user.js" installTime="1366771946404" modified="1366966271062" name="next button" namespace="51ctoÏÂÒ³¿ì½Ý¼ü" runAt="document-end" uuid="2190e81d-b22a-4fb6-9941-2b5f7ba72fad" version="1" installurl="file:///C:/Documents%20and%20Settings/adways/Application%20Data/Mozilla/Firefox/Profiles/5otd1fah.default/gm_scripts/next_button/next_button.user.js" updateurl="file:///C:/Documents%20and%20Settings/adways/Application%20Data/Mozilla/Firefox/Profiles/5otd1fah.default/gm_scripts/next_button/next_button.user.js">
+		<Exclude>*.51cto.com/shtml/*</Exclude>
+		<Grant>GM_openInTab</Grant>
+		<Include>*.51cto.com/art/*</Include>
+		<Include>http://www.cnblogs.com/cate/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="ComicPage" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Comic View Page" enabled="true" filename="89000.user.js" installTime="1366795525058" modified="1366795520437" name="ComicPage" namespace="mesak_comic" runAt="document-end" uuid="3796aa9b-02bb-4575-a4cd-1b0e8761ee90" version="2.12" installurl="http://userscripts.org/scripts/source/89000.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/89000.meta.js">
+		<Grant>GM_deleteValue</Grant>
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Grant>unsafeWindow</Grant>
+		<Include>http://*qqqu.net/html/*</Include>
+		<Include>http://*jumpcn.com.cn/*</Include>
+		<Include>http://*jumpcn.com/m/*</Include>
+		<Include>http://*99comic.com/*</Include>
+		<Include>http://*99770.cc/*</Include>
+		<Include>http://*99manga.com/*</Include>
+		<Include>http://*6manga.net/*</Include>
+		<Include>http://*6manga.co/*</Include>
+		<Include>http://*cococomic.com/*</Include>
+		<Include>http://*sfacg.com/*</Include>
+		<Include>http://*imanhua.com/*</Include>
+		<Include>http://*8comic.com/*</Include>
+		<Include>http://g.e-hentai.org/s/*</Include>
+		<Include>http://comic.92wy.com/*</Include>
+		<Include>http://*xindm.cn/*</Include>
+		<Include>http://*.c9999.com/*</Include>
+		<Include>http://*.xxbh.net/*</Include>
+		<Include>http://*.dm5.com/*</Include>
+		<Include>http://www.kkkmh.com/*</Include>
+	</Script>
+	<Script basedir="demo_test" checkRemoteUpdates="1" dependhash="323d9eeba93981ea8175a6b2e7dc9af460fd3cdf" description="" enabled="true" filename="demo_test.user.js" installTime="1366953531279" modified="1366963988468" name="demo test" namespace="my js shortcut" runAt="document-end" uuid="d617399e-7717-42b1-848e-34829ecbe837" version="1" installurl="file:///C:/Documents%20and%20Settings/adways/Application%20Data/Mozilla/Firefox/Profiles/5otd1fah.default/gm_scripts/demo_test/demo_test.user.js" updateurl="file:///C:/Documents%20and%20Settings/adways/Application%20Data/Mozilla/Firefox/Profiles/5otd1fah.default/gm_scripts/demo_test/demo_test.user.js">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_log</Grant>
+		<Grant>GM_openInTab</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>http://localhost/demo/test/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+</UserScriptConfig>

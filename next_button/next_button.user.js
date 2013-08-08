@@ -3,6 +3,7 @@
 // @namespace   51ctoÏÂÒ³¿ì½Ý¼ü
 // @include     *.51cto.com/art/*
 // @include     http://www.cnblogs.com/cate/*
+// @include     http://tieba.baidu.com/*
 // @exclude     *.51cto.com/shtml/*
 // @version     1
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
@@ -44,7 +45,15 @@ if(mk_domain == 'www.cnblogs.com') {
         
 ;
 
-} else {
+} else if(mk_domain == 'tieba.baidu.com') {
+
+//    $('#thread_list').on('mouseenter','li.j_thread_list',function () {
+//        console.log($(this));
+//        
+//    })
+}
+
+else {
     var $page = $('div.page'),
     $pre = $('a.prew',$page),
     $next = $('a.next',$page);
